@@ -8,7 +8,7 @@ exports.arraysAnswers = {
     var result = -1;
 
     for( var i = 0; i < arr.length; i ++){
-      if( arr[i] === item && result === 1){
+      if( arr[i] === item && result === -1){
         result = i;
       }
     }
